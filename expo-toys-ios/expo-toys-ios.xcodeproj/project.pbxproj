@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		070A8C76228B5079005D806E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070A8C75228B5079005D806E /* AppDelegate.swift */; };
+		070A8C78228B5079005D806E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070A8C77228B5079005D806E /* ViewController.swift */; };
+		070A8C7B228B5079005D806E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070A8C79228B5079005D806E /* Main.storyboard */; };
+		070A8C7D228B507B005D806E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 070A8C7C228B507B005D806E /* Assets.xcassets */; };
+		070A8C80228B507B005D806E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070A8C7E228B507B005D806E /* LaunchScreen.storyboard */; };
+		070A8C8B228B507B005D806E /* expo_toys_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070A8C8A228B507B005D806E /* expo_toys_iosTests.swift */; };
+		070A8C96228B507B005D806E /* expo_toys_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070A8C95228B507B005D806E /* expo_toys_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		070A8C87228B507B005D806E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 070A8C6A228B5079005D806E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 070A8C71228B5079005D806E;
+			remoteInfo = "expo-toys-ios";
+		};
+		070A8C92228B507B005D806E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 070A8C6A228B5079005D806E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 070A8C71228B5079005D806E;
+			remoteInfo = "expo-toys-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		070A8C72228B5079005D806E /* expo-toys-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "expo-toys-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		070A8C75228B5079005D806E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		070A8C77228B5079005D806E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		070A8C7A228B5079005D806E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		070A8C7C228B507B005D806E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		070A8C7F228B507B005D806E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		070A8C81228B507B005D806E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		070A8C86228B507B005D806E /* expo-toys-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "expo-toys-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		070A8C8A228B507B005D806E /* expo_toys_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expo_toys_iosTests.swift; sourceTree = "<group>"; };
+		070A8C8C228B507B005D806E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		070A8C91228B507B005D806E /* expo-toys-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "expo-toys-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		070A8C95228B507B005D806E /* expo_toys_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expo_toys_iosUITests.swift; sourceTree = "<group>"; };
+		070A8C97228B507B005D806E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		070A8C6F228B5079005D806E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		070A8C83228B507B005D806E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		070A8C8E228B507B005D806E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		070A8C69228B5079005D806E = {
+			isa = PBXGroup;
+			children = (
+				070A8C74228B5079005D806E /* expo-toys-ios */,
+				070A8C89228B507B005D806E /* expo-toys-iosTests */,
+				070A8C94228B507B005D806E /* expo-toys-iosUITests */,
+				070A8C73228B5079005D806E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		070A8C73228B5079005D806E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				070A8C72228B5079005D806E /* expo-toys-ios.app */,
+				070A8C86228B507B005D806E /* expo-toys-iosTests.xctest */,
+				070A8C91228B507B005D806E /* expo-toys-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		070A8C74228B5079005D806E /* expo-toys-ios */ = {
+			isa = PBXGroup;
+			children = (
+				070A8C75228B5079005D806E /* AppDelegate.swift */,
+				070A8C77228B5079005D806E /* ViewController.swift */,
+				070A8C79228B5079005D806E /* Main.storyboard */,
+				070A8C7C228B507B005D806E /* Assets.xcassets */,
+				070A8C7E228B507B005D806E /* LaunchScreen.storyboard */,
+				070A8C81228B507B005D806E /* Info.plist */,
+			);
+			path = "expo-toys-ios";
+			sourceTree = "<group>";
+		};
+		070A8C89228B507B005D806E /* expo-toys-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				070A8C8A228B507B005D806E /* expo_toys_iosTests.swift */,
+				070A8C8C228B507B005D806E /* Info.plist */,
+			);
+			path = "expo-toys-iosTests";
+			sourceTree = "<group>";
+		};
+		070A8C94228B507B005D806E /* expo-toys-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				070A8C95228B507B005D806E /* expo_toys_iosUITests.swift */,
+				070A8C97228B507B005D806E /* Info.plist */,
+			);
+			path = "expo-toys-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		070A8C71228B5079005D806E /* expo-toys-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 070A8C9A228B507B005D806E /* Build configuration list for PBXNativeTarget "expo-toys-ios" */;
+			buildPhases = (
+				070A8C6E228B5079005D806E /* Sources */,
+				070A8C6F228B5079005D806E /* Frameworks */,
+				070A8C70228B5079005D806E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "expo-toys-ios";
+			productName = "expo-toys-ios";
+			productReference = 070A8C72228B5079005D806E /* expo-toys-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		070A8C85228B507B005D806E /* expo-toys-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 070A8C9D228B507B005D806E /* Build configuration list for PBXNativeTarget "expo-toys-iosTests" */;
+			buildPhases = (
+				070A8C82228B507B005D806E /* Sources */,
+				070A8C83228B507B005D806E /* Frameworks */,
+				070A8C84228B507B005D806E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				070A8C88228B507B005D806E /* PBXTargetDependency */,
+			);
+			name = "expo-toys-iosTests";
+			productName = "expo-toys-iosTests";
+			productReference = 070A8C86228B507B005D806E /* expo-toys-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		070A8C90228B507B005D806E /* expo-toys-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 070A8CA0228B507B005D806E /* Build configuration list for PBXNativeTarget "expo-toys-iosUITests" */;
+			buildPhases = (
+				070A8C8D228B507B005D806E /* Sources */,
+				070A8C8E228B507B005D806E /* Frameworks */,
+				070A8C8F228B507B005D806E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				070A8C93228B507B005D806E /* PBXTargetDependency */,
+			);
+			name = "expo-toys-iosUITests";
+			productName = "expo-toys-iosUITests";
+			productReference = 070A8C91228B507B005D806E /* expo-toys-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		070A8C6A228B5079005D806E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Alex Campayo";
+				TargetAttributes = {
+					070A8C71228B5079005D806E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					070A8C85228B507B005D806E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 070A8C71228B5079005D806E;
+					};
+					070A8C90228B507B005D806E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 070A8C71228B5079005D806E;
+					};
+				};
+			};
+			buildConfigurationList = 070A8C6D228B5079005D806E /* Build configuration list for PBXProject "expo-toys-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 070A8C69228B5079005D806E;
+			productRefGroup = 070A8C73228B5079005D806E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				070A8C71228B5079005D806E /* expo-toys-ios */,
+				070A8C85228B507B005D806E /* expo-toys-iosTests */,
+				070A8C90228B507B005D806E /* expo-toys-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		070A8C70228B5079005D806E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070A8C80228B507B005D806E /* LaunchScreen.storyboard in Resources */,
+				070A8C7D228B507B005D806E /* Assets.xcassets in Resources */,
+				070A8C7B228B5079005D806E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		070A8C84228B507B005D806E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		070A8C8F228B507B005D806E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		070A8C6E228B5079005D806E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070A8C78228B5079005D806E /* ViewController.swift in Sources */,
+				070A8C76228B5079005D806E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		070A8C82228B507B005D806E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070A8C8B228B507B005D806E /* expo_toys_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		070A8C8D228B507B005D806E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070A8C96228B507B005D806E /* expo_toys_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		070A8C88228B507B005D806E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 070A8C71228B5079005D806E /* expo-toys-ios */;
+			targetProxy = 070A8C87228B507B005D806E /* PBXContainerItemProxy */;
+		};
+		070A8C93228B507B005D806E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 070A8C71228B5079005D806E /* expo-toys-ios */;
+			targetProxy = 070A8C92228B507B005D806E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		070A8C79228B5079005D806E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				070A8C7A228B5079005D806E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		070A8C7E228B507B005D806E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				070A8C7F228B507B005D806E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		070A8C98228B507B005D806E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		070A8C99228B507B005D806E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		070A8C9B228B507B005D806E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YXTNX48R4;
+				INFOPLIST_FILE = "expo-toys-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.expotoys.expo-toys-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		070A8C9C228B507B005D806E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YXTNX48R4;
+				INFOPLIST_FILE = "expo-toys-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.expotoys.expo-toys-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		070A8C9E228B507B005D806E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YXTNX48R4;
+				INFOPLIST_FILE = "expo-toys-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.expotoys.expo-toys-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/expo-toys-ios.app/expo-toys-ios";
+			};
+			name = Debug;
+		};
+		070A8C9F228B507B005D806E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YXTNX48R4;
+				INFOPLIST_FILE = "expo-toys-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.expotoys.expo-toys-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/expo-toys-ios.app/expo-toys-ios";
+			};
+			name = Release;
+		};
+		070A8CA1228B507B005D806E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YXTNX48R4;
+				INFOPLIST_FILE = "expo-toys-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.expotoys.expo-toys-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "expo-toys-ios";
+			};
+			name = Debug;
+		};
+		070A8CA2228B507B005D806E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7YXTNX48R4;
+				INFOPLIST_FILE = "expo-toys-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.expotoys.expo-toys-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "expo-toys-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		070A8C6D228B5079005D806E /* Build configuration list for PBXProject "expo-toys-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070A8C98228B507B005D806E /* Debug */,
+				070A8C99228B507B005D806E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		070A8C9A228B507B005D806E /* Build configuration list for PBXNativeTarget "expo-toys-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070A8C9B228B507B005D806E /* Debug */,
+				070A8C9C228B507B005D806E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		070A8C9D228B507B005D806E /* Build configuration list for PBXNativeTarget "expo-toys-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070A8C9E228B507B005D806E /* Debug */,
+				070A8C9F228B507B005D806E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		070A8CA0228B507B005D806E /* Build configuration list for PBXNativeTarget "expo-toys-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070A8CA1228B507B005D806E /* Debug */,
+				070A8CA2228B507B005D806E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 070A8C6A228B5079005D806E /* Project object */;
+}
