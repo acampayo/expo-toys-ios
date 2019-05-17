@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class ToyCell: UICollectionViewCell {
+class ToyCell: UITableViewCell {
     @IBOutlet weak var photo: UIImageView!
     @IBOutlet weak var name: UILabel!
     
@@ -22,7 +22,6 @@ class ToyCell: UICollectionViewCell {
     func render() {
         //photo.image
         name.text = toy.artist
-        name.text = "Alejandro Campayo"
     }
     
     override func prepareForReuse() {

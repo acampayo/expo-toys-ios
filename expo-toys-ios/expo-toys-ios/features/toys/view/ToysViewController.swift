@@ -10,29 +10,19 @@ import Foundation
 import UIKit
 
 class ToysViewController: UIViewController, View {
-    
-    @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var tableView: UITableView!
     
     private let presenter = ToysPresenter()
     private var toys = [Toy]()
-    private let numColummns = 2
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupCollectionView()
         presenter.attachView(view: self)
-    }
-    
-    func setupCollectionView() {
-        let viewWidth = view.frame.size.width
-        let width = viewWidth / CGFloat(numColummns)
-        let layout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
-        layout.itemSize = CGSize(width: width, height: width)
     }
     
     func renderToys(toys: [Toy]) {
         self.toys = toys
-        collectionView.reloadData()
+        tableView.reloadData()
     }
     
     func showEmptyView() {
@@ -48,13 +38,13 @@ class ToysViewController: UIViewController, View {
     }
 }
 
-extension ToysViewController: UICollectionViewDelegate, UICollectionViewDataSource {
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+extension ToysViewController: UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.toys.count
     }
     
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ToyCell", for: indexPath) as! ToyCell
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ToyCell", for: indexPath) as! ToyCell
         cell.toy = toys[indexPath.row]
         return cell
     }
