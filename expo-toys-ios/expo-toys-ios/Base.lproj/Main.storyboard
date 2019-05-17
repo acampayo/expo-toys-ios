@@ -13,11 +13,11 @@
         <!--Item-->
         <scene sceneID="h7a-W0-oXv">
             <objects>
-                <viewController id="cMY-gI-Uth" sceneMemberID="viewController">
+                <viewController id="cMY-gI-Uth" customClass="ToysViewController" customModule="expo_toys_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rQd-bf-z4c">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.77647058820000003" green="0.08235294118" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="pEg-Uw-Cyi"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="m15-b8-1SH"/>
