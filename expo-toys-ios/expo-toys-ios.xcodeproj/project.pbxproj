@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		04D7755A15E4AA40A5C900CE /* Pods_expo_toys_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEC70C19D7A883D21D68A85 /* Pods_expo_toys_ios.framework */; };
 		070A8C76228B5079005D806E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070A8C75228B5079005D806E /* AppDelegate.swift */; };
-		070A8C78228B5079005D806E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070A8C77228B5079005D806E /* ViewController.swift */; };
 		070A8C7B228B5079005D806E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070A8C79228B5079005D806E /* Main.storyboard */; };
 		070A8C7D228B507B005D806E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 070A8C7C228B507B005D806E /* Assets.xcassets */; };
 		070A8C80228B507B005D806E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070A8C7E228B507B005D806E /* LaunchScreen.storyboard */; };
 		070A8C8B228B507B005D806E /* expo_toys_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070A8C8A228B507B005D806E /* expo_toys_iosTests.swift */; };
 		070A8C96228B507B005D806E /* expo_toys_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070A8C95228B507B005D806E /* expo_toys_iosUITests.swift */; };
+		07F9C098228F12E800F0BBB7 /* ToysNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F9C097228F12E800F0BBB7 /* ToysNewsViewController.swift */; };
+		07F9C09A228F170D00F0BBB7 /* Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F9C099228F170D00F0BBB7 /* Toy.swift */; };
+		07F9C09C228F1B5000F0BBB7 /* ToysApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F9C09B228F1B5000F0BBB7 /* ToysApi.swift */; };
+		07F9C09E228F1BA700F0BBB7 /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F9C09D228F1BA700F0BBB7 /* ApiConstants.swift */; };
+		07F9C0A1228F202800F0BBB7 /* ToysDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F9C0A0228F202800F0BBB7 /* ToysDataSource.swift */; };
+		07F9C0A4228F236B00F0BBB7 /* ToysRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F9C0A3228F236B00F0BBB7 /* ToysRepository.swift */; };
 		DBEA39380A4EF9A923F7CC1C /* Pods_expo_toys_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D83FCD40C75C180E7C9EBA2 /* Pods_expo_toys_iosTests.framework */; };
 		DE5B1A32ED0FCB29624D885C /* Pods_expo_toys_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1F5247EF503AA53A25B142 /* Pods_expo_toys_iosUITests.framework */; };
 /* End PBXBuildFile section */
@@ -39,7 +44,6 @@
 /* Begin PBXFileReference section */
 		070A8C72228B5079005D806E /* expo-toys-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "expo-toys-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		070A8C75228B5079005D806E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		070A8C77228B5079005D806E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		070A8C7A228B5079005D806E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		070A8C7C228B507B005D806E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		070A8C7F228B507B005D806E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,6 +54,12 @@
 		070A8C91228B507B005D806E /* expo-toys-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "expo-toys-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		070A8C95228B507B005D806E /* expo_toys_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expo_toys_iosUITests.swift; sourceTree = "<group>"; };
 		070A8C97228B507B005D806E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F9C097228F12E800F0BBB7 /* ToysNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToysNewsViewController.swift; sourceTree = "<group>"; };
+		07F9C099228F170D00F0BBB7 /* Toy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toy.swift; sourceTree = "<group>"; };
+		07F9C09B228F1B5000F0BBB7 /* ToysApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToysApi.swift; sourceTree = "<group>"; };
+		07F9C09D228F1BA700F0BBB7 /* ApiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
+		07F9C0A0228F202800F0BBB7 /* ToysDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToysDataSource.swift; sourceTree = "<group>"; };
+		07F9C0A3228F236B00F0BBB7 /* ToysRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToysRepository.swift; sourceTree = "<group>"; };
 		2B1F5247EF503AA53A25B142 /* Pods_expo_toys_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_expo_toys_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D83FCD40C75C180E7C9EBA2 /* Pods_expo_toys_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_expo_toys_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A0462E6207341897537457 /* Pods-expo-toys-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-expo-toys-ios.debug.xcconfig"; path = "Target Support Files/Pods-expo-toys-ios/Pods-expo-toys-ios.debug.xcconfig"; sourceTree = "<group>"; };
@@ -154,6 +164,8 @@
 		0797A21C228B530B00FA9014 /* core */ = {
 			isa = PBXGroup;
 			children = (
+				07F9C0A2228F234100F0BBB7 /* respository */,
+				07F9C09F228F200200F0BBB7 /* data */,
 				0797A221228B536600FA9014 /* model */,
 				0797A220228B535C00FA9014 /* api */,
 			);
@@ -179,7 +191,7 @@
 		0797A21F228B534500FA9014 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				070A8C77228B5079005D806E /* ViewController.swift */,
+				07F9C097228F12E800F0BBB7 /* ToysNewsViewController.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -187,6 +199,8 @@
 		0797A220228B535C00FA9014 /* api */ = {
 			isa = PBXGroup;
 			children = (
+				07F9C09B228F1B5000F0BBB7 /* ToysApi.swift */,
+				07F9C09D228F1BA700F0BBB7 /* ApiConstants.swift */,
 			);
 			path = api;
 			sourceTree = "<group>";
@@ -194,8 +208,25 @@
 		0797A221228B536600FA9014 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				07F9C099228F170D00F0BBB7 /* Toy.swift */,
 			);
 			path = model;
+			sourceTree = "<group>";
+		};
+		07F9C09F228F200200F0BBB7 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				07F9C0A0228F202800F0BBB7 /* ToysDataSource.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		07F9C0A2228F234100F0BBB7 /* respository */ = {
+			isa = PBXGroup;
+			children = (
+				07F9C0A3228F236B00F0BBB7 /* ToysRepository.swift */,
+			);
+			path = respository;
 			sourceTree = "<group>";
 		};
 		5DE63FBE1432D2B99BE09D18 /* Pods */ = {
@@ -232,6 +263,7 @@
 				070A8C6E228B5079005D806E /* Sources */,
 				070A8C6F228B5079005D806E /* Frameworks */,
 				070A8C70228B5079005D806E /* Resources */,
+				1F0DE32B61C54ACAEBC35F8D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -351,6 +383,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1F0DE32B61C54ACAEBC35F8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-expo-toys-ios/Pods-expo-toys-ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-expo-toys-ios/Pods-expo-toys-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		5CC855915A157B4037BE795F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -424,7 +478,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				070A8C78228B5079005D806E /* ViewController.swift in Sources */,
+				07F9C09A228F170D00F0BBB7 /* Toy.swift in Sources */,
+				07F9C09C228F1B5000F0BBB7 /* ToysApi.swift in Sources */,
+				07F9C0A4228F236B00F0BBB7 /* ToysRepository.swift in Sources */,
+				07F9C09E228F1BA700F0BBB7 /* ApiConstants.swift in Sources */,
+				07F9C0A1228F202800F0BBB7 /* ToysDataSource.swift in Sources */,
+				07F9C098228F12E800F0BBB7 /* ToysNewsViewController.swift in Sources */,
 				070A8C76228B5079005D806E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

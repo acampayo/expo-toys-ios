@@ -48,23 +48,46 @@
         <!--Item 2-->
         <scene sceneID="w8O-Hi-Sy6">
             <objects>
-                <viewController id="zDx-hz-PJm" sceneMemberID="viewController">
+                <viewController id="zDx-hz-PJm" customClass="ToysNewsController" customModule="expo_toys_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4gM-AZ-p2L">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="monkey_background" translatesAutoresizingMaskIntoConstraints="NO" id="3Jz-hf-FKb">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6BM-Xa-k5s">
+                                <rect key="frame" x="27" y="128" width="360" height="640"/>
+                                <state key="normal" image="blog_button_normal"/>
+                                <state key="selected" image="blog_button_pressed"/>
+                                <state key="highlighted" image="blog_button_pressed"/>
+                                <connections>
+                                    <action selector="openBlog" destination="zDx-hz-PJm" eventType="touchUpInside" id="Aj0-Vx-Miz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.77647058820000003" green="0.08235294118" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3Jz-hf-FKb" firstAttribute="top" secondItem="maV-Sy-2uO" secondAttribute="top" id="0mI-bC-O9H"/>
+                            <constraint firstItem="6BM-Xa-k5s" firstAttribute="leading" secondItem="maV-Sy-2uO" secondAttribute="leading" constant="27" id="3jq-8f-Am3"/>
+                            <constraint firstItem="3Jz-hf-FKb" firstAttribute="leading" secondItem="maV-Sy-2uO" secondAttribute="leading" id="6HD-E8-IqI"/>
+                            <constraint firstItem="3Jz-hf-FKb" firstAttribute="trailing" secondItem="maV-Sy-2uO" secondAttribute="trailing" id="BgP-qv-Cmb"/>
+                            <constraint firstItem="maV-Sy-2uO" firstAttribute="bottom" secondItem="6BM-Xa-k5s" secondAttribute="bottom" constant="45" id="Ktd-IG-udi"/>
+                            <constraint firstItem="3Jz-hf-FKb" firstAttribute="bottom" secondItem="maV-Sy-2uO" secondAttribute="bottom" id="f48-6Y-5NQ"/>
+                            <constraint firstItem="6BM-Xa-k5s" firstAttribute="top" secondItem="maV-Sy-2uO" secondAttribute="top" constant="40" id="gvS-d0-KO2"/>
+                            <constraint firstItem="maV-Sy-2uO" firstAttribute="trailing" secondItem="6BM-Xa-k5s" secondAttribute="trailing" constant="27" id="vHy-od-FkZ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="maV-Sy-2uO"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="Ycp-h6-4dQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Mx-q3-mws" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="681" y="14"/>
+            <point key="canvasLocation" x="679.71014492753625" y="13.392857142857142"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5mJ-tu-IoL">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="B6Z-DM-e2d" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="NPj-kt-uKi" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mO2-pC-W9z">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -74,6 +97,7 @@
                         <segue destination="6wy-wb-1Ml" kind="relationship" relationship="rootViewController" id="1FL-bi-vLT"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B6Z-DM-e2d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1454" y="-299"/>
         </scene>
@@ -88,8 +112,8 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="zDx-hz-PJm" kind="relationship" relationship="viewControllers" id="6mg-OM-noA"/>
-                        <segue destination="cMY-gI-Uth" kind="relationship" relationship="viewControllers" id="GAm-ia-dmt"/>
+                        <segue destination="cMY-gI-Uth" kind="relationship" relationship="viewControllers" id="dPv-he-EJa"/>
+                        <segue destination="zDx-hz-PJm" kind="relationship" relationship="viewControllers" id="Ze4-HO-6s4"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rOd-5j-a04" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -97,4 +121,9 @@
             <point key="canvasLocation" x="-478" y="-298"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="blog_button_normal" width="360" height="640"/>
+        <image name="blog_button_pressed" width="360" height="640"/>
+        <image name="monkey_background" width="360" height="640"/>
+    </resources>
 </document>

@@ -6,6 +6,7 @@ target 'expo-toys-ios' do
   use_frameworks!
 
   # Pods for expo-toys-ios
+  pod 'Alamofire', '4.8.2'
 
   target 'expo-toys-iosTests' do
     inherit! :search_paths
