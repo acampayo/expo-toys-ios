@@ -9,6 +9,6 @@
 import Foundation
 
 struct APIConstants {
-    static let baseURL = "https://ef1696e7-1138-4937-8fcb-2b756c83e712.mock.pstmn.io"
+    static let baseURL = "https://ef1696e7-1138-4937-8fcb-2b756c83e712.mock.pstmn.io/"
     static let toysService = "toys"
 }
