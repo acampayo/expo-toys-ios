@@ -10,7 +10,7 @@ import Foundation
 
 class ToysDataSource {
     
-    func getToys(success: @escaping ([Toy]) -> Void, failure: @escaping (Error) -> Void) {
+    func toys(success: @escaping ([Toy]) -> Void, failure: @escaping (Error) -> Void) {
         ToysApi.getToys(success: { (toysDict) in
             var toys = [Toy]()
             if let toysDict = toysDict as? [[String : Any]] {

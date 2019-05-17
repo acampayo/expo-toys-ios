@@ -12,11 +12,11 @@ class ToysRepository {
     
     let toysDataSource = ToysDataSource()
     
-    func getToys(success: @escaping ([Toy]) -> Void, failure: @escaping (Error) -> Void) {
-        toysDataSource.getToys(success: { (toys) in
-            
+    func toys(success: @escaping ([Toy]) -> Void, failure: @escaping (Error) -> Void) {
+        toysDataSource.toys(success: { (toys) in
+            success(toys)
         }) { (error) in
-            
+            failure(error)
         }
     }
 }
