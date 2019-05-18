@@ -7,6 +7,8 @@ target 'expo-toys-ios' do
 
   # Pods for expo-toys-ios
   pod 'Alamofire', '4.8.2'
+  pod 'MBProgressHUD', '~> 1.1.0'
+  pod 'SDWebImage', '~> 5.0'
 
   target 'expo-toys-iosTests' do
     inherit! :search_paths

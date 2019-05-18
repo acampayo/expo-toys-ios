@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import SDWebImage
 
 class ToyCell: UITableViewCell {
     @IBOutlet weak var photo: UIImageView!
@@ -20,7 +21,9 @@ class ToyCell: UITableViewCell {
     }
     
     func render() {
-        //photo.image
+        if !toy.photos.isEmpty, let image = URL(string: toy.photos[0]) as URL? {
+            photo.sd_setImage(with: image, completed: nil)
+        }
         name.text = toy.artist
     }
     
