@@ -8,9 +8,11 @@
 
 import Foundation
 import UIKit
+import MBProgressHUD
 
 class ToysViewController: UIViewController, View {
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var emptyView: UILabel!
     
     private let presenter = ToysPresenter()
     private var toys = [Toy]()
@@ -26,15 +28,16 @@ class ToysViewController: UIViewController, View {
     }
     
     func showEmptyView() {
-        
+        tableView.isHidden = true
+        emptyView.isHidden = false
     }
     
     func showLoading() {
-        
+        MBProgressHUD.showAdded(to: view, animated: true)
     }
     
     func hideLoading() {
-        
+        MBProgressHUD.hide(for: self.view, animated: true)
     }
 }
 

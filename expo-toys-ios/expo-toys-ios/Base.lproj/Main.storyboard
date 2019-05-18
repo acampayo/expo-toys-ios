@@ -66,19 +66,31 @@
                                     <outlet property="delegate" destination="cMY-gI-Uth" id="jIa-qM-EOu"/>
                                 </connections>
                             </tableView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="There are no Toys :(" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ACS-B4-SoH">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" red="0.77647058820000003" green="0.08235294118" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.77647058820000003" green="0.08235294118" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="ACS-B4-SoH" secondAttribute="bottom" id="8Ib-AO-50a"/>
                             <constraint firstItem="zuU-fL-yX9" firstAttribute="bottom" secondItem="pEg-Uw-Cyi" secondAttribute="bottom" id="P8M-Hm-xrw"/>
                             <constraint firstItem="zuU-fL-yX9" firstAttribute="top" secondItem="rQd-bf-z4c" secondAttribute="top" id="TYX-Ri-6KA"/>
                             <constraint firstItem="zuU-fL-yX9" firstAttribute="trailing" secondItem="pEg-Uw-Cyi" secondAttribute="trailing" id="fuD-S3-ZKB"/>
                             <constraint firstItem="zuU-fL-yX9" firstAttribute="leading" secondItem="pEg-Uw-Cyi" secondAttribute="leading" id="kCO-Nf-7hI"/>
+                            <constraint firstItem="ACS-B4-SoH" firstAttribute="leading" secondItem="pEg-Uw-Cyi" secondAttribute="leading" id="lJT-e2-tC3"/>
+                            <constraint firstItem="ACS-B4-SoH" firstAttribute="trailing" secondItem="pEg-Uw-Cyi" secondAttribute="trailing" id="wn0-hE-XJy"/>
+                            <constraint firstItem="ACS-B4-SoH" firstAttribute="top" secondItem="rQd-bf-z4c" secondAttribute="top" id="yW8-hC-KyO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="pEg-Uw-Cyi"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="m15-b8-1SH"/>
                     <navigationItem key="navigationItem" id="8rv-4B-nxX"/>
                     <connections>
+                        <outlet property="emptyView" destination="ACS-B4-SoH" id="PTj-ks-JIE"/>
                         <outlet property="tableView" destination="zuU-fL-yX9" id="sn4-vh-f6A"/>
                         <segue destination="FKN-3r-KT9" kind="show" id="fZ3-EF-KHX"/>
                     </connections>
