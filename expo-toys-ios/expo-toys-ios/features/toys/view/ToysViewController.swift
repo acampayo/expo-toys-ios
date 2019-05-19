@@ -39,6 +39,12 @@ class ToysViewController: UIViewController, View {
     func hideLoading() {
         MBProgressHUD.hide(for: self.view, animated: true)
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ShowDetail", let toy = sender as? Toy {
+            (segue.destination as! ToyDetailViewController).toy = toy
+        }
+    }
 }
 
 extension ToysViewController: UITableViewDelegate, UITableViewDataSource {
@@ -50,5 +56,10 @@ extension ToysViewController: UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ToyCell", for: indexPath) as! ToyCell
         cell.toy = toys[indexPath.row]
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "ShowDetail", sender: toys[indexPath.row])
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }

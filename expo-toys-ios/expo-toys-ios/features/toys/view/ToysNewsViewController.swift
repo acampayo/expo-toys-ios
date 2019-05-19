@@ -12,6 +12,10 @@ class ToysNewsController: UIViewController {
     
     private let zonaToysUrl = "http://www.zonatoys.com/"
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
     @IBAction func openBlog() {
         let url = URL(string: zonaToysUrl)!
         UIApplication.shared.open(url, options: [:], completionHandler: nil)
