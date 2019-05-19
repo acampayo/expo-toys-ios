@@ -18,6 +18,7 @@ class ToyDetailViewController: UITableViewController {
     @IBOutlet weak var desc: UILabel!
     @IBOutlet weak var instagramUser: UILabel!
     @IBOutlet weak var biography: UILabel!
+    @IBOutlet weak var photos: UICollectionView!
     
     var toy: Toy?
     
@@ -39,5 +40,18 @@ class ToyDetailViewController: UITableViewController {
         self.instagramUser.text = toy.instagramUser
         self.instagramUser.text = "@Perico"
         self.biography.text = toy.biography
+    }
+}
+
+extension ToyDetailViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        guard let toy = toy else { return 0 }
+        return toy.photos.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ToyPhotoCell", for: indexPath) as! ToyPhotoCell
+        cell.photoUrl = toy!.photos[indexPath.row]
+        return cell
     }
 }

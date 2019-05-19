@@ -14,6 +14,7 @@
 		070A8C80228B507B005D806E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070A8C7E228B507B005D806E /* LaunchScreen.storyboard */; };
 		070A8C8B228B507B005D806E /* expo_toys_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070A8C8A228B507B005D806E /* expo_toys_iosTests.swift */; };
 		070A8C96228B507B005D806E /* expo_toys_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070A8C95228B507B005D806E /* expo_toys_iosUITests.swift */; };
+		072958032291893B0062458C /* ToyPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072958022291893B0062458C /* ToyPhotoCell.swift */; };
 		078683B8229097B200ED5A4F /* ToyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078683B7229097B200ED5A4F /* ToyDetailViewController.swift */; };
 		07F9C098228F12E800F0BBB7 /* ToysNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F9C097228F12E800F0BBB7 /* ToysNewsViewController.swift */; };
 		07F9C09A228F170D00F0BBB7 /* Toy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F9C099228F170D00F0BBB7 /* Toy.swift */; };
@@ -58,6 +59,7 @@
 		070A8C91228B507B005D806E /* expo-toys-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "expo-toys-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		070A8C95228B507B005D806E /* expo_toys_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = expo_toys_iosUITests.swift; sourceTree = "<group>"; };
 		070A8C97228B507B005D806E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072958022291893B0062458C /* ToyPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyPhotoCell.swift; sourceTree = "<group>"; };
 		078683B7229097B200ED5A4F /* ToyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToyDetailViewController.swift; sourceTree = "<group>"; };
 		07F9C097228F12E800F0BBB7 /* ToysNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToysNewsViewController.swift; sourceTree = "<group>"; };
 		07F9C099228F170D00F0BBB7 /* Toy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toy.swift; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 			isa = PBXGroup;
 			children = (
 				07F9C0AA228F376700F0BBB7 /* ToyCell.swift */,
+				072958022291893B0062458C /* ToyPhotoCell.swift */,
 			);
 			path = cell;
 			sourceTree = "<group>";
@@ -505,6 +508,7 @@
 				07F9C09A228F170D00F0BBB7 /* Toy.swift in Sources */,
 				07F9C0A8228F2B1A00F0BBB7 /* ToysViewController.swift in Sources */,
 				07F9C09C228F1B5000F0BBB7 /* ToysApi.swift in Sources */,
+				072958032291893B0062458C /* ToyPhotoCell.swift in Sources */,
 				07F9C0A4228F236B00F0BBB7 /* ToysRepository.swift in Sources */,
 				07F9C0AB228F376700F0BBB7 /* ToyCell.swift in Sources */,
 				07F9C09E228F1BA700F0BBB7 /* ApiConstants.swift in Sources */,
