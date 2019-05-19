@@ -12,6 +12,7 @@ import SDWebImage
 
 class ToyDetailViewController: UITableViewController {
     @IBOutlet weak var image: UIImageView!
+    @IBOutlet weak var name: UILabel!
     @IBOutlet weak var technique: UILabel!
     @IBOutlet weak var size: UILabel!
     @IBOutlet weak var desc: UILabel!
@@ -27,10 +28,11 @@ class ToyDetailViewController: UITableViewController {
     
     private func renderDetail() {
         guard let toy = toy else { return }
-        title = toy.name
+        title = toy.artist
         if !toy.photos.isEmpty, let image = URL(string: toy.photos[0]) as URL? {
             self.image.sd_setImage(with: image, completed: nil)
         }
+        self.name.text = toy.name
         self.technique.text = toy.technique
         self.size.text = toy.size
         self.desc.text = toy.description
