@@ -38,7 +38,6 @@ class ToyDetailViewController: UITableViewController {
         self.size.text = toy.size
         self.desc.text = toy.description
         self.instagramUser.text = toy.instagramUser
-        self.instagramUser.text = "@Perico"
         self.biography.text = toy.biography
     }
 }
