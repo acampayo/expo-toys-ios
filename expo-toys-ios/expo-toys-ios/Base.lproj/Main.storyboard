@@ -354,7 +354,11 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6BM-Xa-k5s">
-                                <rect key="frame" x="27" y="128" width="360" height="640"/>
+                                <rect key="frame" x="150" y="381.5" width="114.5" height="133.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114.5" id="cOk-2O-WfU"/>
+                                    <constraint firstAttribute="height" constant="133.5" id="lxH-r4-qOT"/>
+                                </constraints>
                                 <state key="normal" image="blog_button_normal"/>
                                 <state key="selected" image="blog_button_pressed"/>
                                 <state key="highlighted" image="blog_button_pressed"/>
@@ -366,13 +370,11 @@
                         <color key="backgroundColor" red="0.77647058820000003" green="0.08235294118" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="3Jz-hf-FKb" firstAttribute="top" secondItem="maV-Sy-2uO" secondAttribute="top" id="0mI-bC-O9H"/>
-                            <constraint firstItem="6BM-Xa-k5s" firstAttribute="leading" secondItem="maV-Sy-2uO" secondAttribute="leading" constant="27" id="3jq-8f-Am3"/>
                             <constraint firstItem="3Jz-hf-FKb" firstAttribute="leading" secondItem="maV-Sy-2uO" secondAttribute="leading" id="6HD-E8-IqI"/>
                             <constraint firstItem="3Jz-hf-FKb" firstAttribute="trailing" secondItem="maV-Sy-2uO" secondAttribute="trailing" id="BgP-qv-Cmb"/>
-                            <constraint firstItem="maV-Sy-2uO" firstAttribute="bottom" secondItem="6BM-Xa-k5s" secondAttribute="bottom" constant="45" id="Ktd-IG-udi"/>
+                            <constraint firstItem="6BM-Xa-k5s" firstAttribute="centerX" secondItem="4gM-AZ-p2L" secondAttribute="centerX" id="VZ2-R6-ibC"/>
+                            <constraint firstItem="6BM-Xa-k5s" firstAttribute="centerY" secondItem="4gM-AZ-p2L" secondAttribute="centerY" id="Yck-YT-jXP"/>
                             <constraint firstItem="3Jz-hf-FKb" firstAttribute="bottom" secondItem="maV-Sy-2uO" secondAttribute="bottom" id="f48-6Y-5NQ"/>
-                            <constraint firstItem="6BM-Xa-k5s" firstAttribute="top" secondItem="maV-Sy-2uO" secondAttribute="top" constant="40" id="gvS-d0-KO2"/>
-                            <constraint firstItem="maV-Sy-2uO" firstAttribute="trailing" secondItem="6BM-Xa-k5s" secondAttribute="trailing" constant="27" id="vHy-od-FkZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="maV-Sy-2uO"/>
                     </view>
@@ -454,10 +456,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="blog_button_normal" width="360" height="640"/>
-        <image name="blog_button_pressed" width="360" height="640"/>
+        <image name="blog_button_normal" width="114.66666412353516" height="133.33332824707031"/>
+        <image name="blog_button_pressed" width="114.66666412353516" height="133.33332824707031"/>
         <image name="expo_toys" width="24" height="24"/>
-        <image name="monkey_background" width="360" height="640"/>
+        <image name="monkey_background" width="131.33332824707031" height="233.33332824707031"/>
         <image name="zona_toys" width="24" height="24"/>
     </resources>
 </document>
